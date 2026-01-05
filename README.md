@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.13-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Neo4j](https://img.shields.io/badge/Neo4j-5.x-orange.svg)
 
 A simple, beautiful web application for extracting and visualizing knowledge graphs from unstructured text. Built with BAML (Boundary Abstract Model Language), Gemini 2.5 Flash, and Neo4j.
+The Project is live at : https://knowledge-graph-78ei.onrender.com
 
 ## Architecture
 
