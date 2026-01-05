@@ -48,3 +48,6 @@ neo4j_data/
 # UV
 .uv/
 uv.lock
+
+# Personal files
+RESUME_POINTS.md
