@@ -317,7 +317,8 @@ def extract_path_from_nodes(node_ids: List[str], graph_context: dict) -> Optiona
 
 if __name__ == "__main__":
     import uvicorn
+    port = int(os.environ.get("PORT", 8005))
     print("🚀 Starting Knowledge Graph Extractor...")
-    print("📊 Open http://localhost:8005 in your browser")
-    uvicorn.run(app, host="0.0.0.0", port=8005)
+    print(f"📊 Open http://localhost:{port} in your browser")
+    uvicorn.run(app, host="0.0.0.0", port=port)
 
